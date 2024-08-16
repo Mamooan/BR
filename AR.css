@@ -1,0 +1,319 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.AR{
+    height: 10vh;
+    width: 99.9%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content:  space-between;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.259);
+    z-index: 10;
+}
+.AR1{
+    position: relative;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 19px;
+    font-family: Verdana,sans-serif;
+    margin-left: 20px;
+}
+.AR1:hover{
+    transform: scale(0.8);
+    background-color: aliceblue;
+    font-size: 24px;
+}
+.AR2{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.AR2>li{
+    position: relative;
+    /* top: 15px; */
+    font-size: 20px;
+    font-family: Verdana,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 7vh;
+    width: 25%;
+    top: 10px;
+    cursor: pointer;
+
+}
+.AR3:hover{
+    background-color: gainsboro;
+
+}
+.AR4:hover{
+    background-color: gainsboro;
+
+
+}
+.AR5:hover{
+    background-color: gainsboro;
+
+
+}
+.main{
+    height: 110vh;
+    width: 100%;
+    background-image: url(./Alexa01.jpg);
+    background-size: 100% 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.main1{
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+
+}
+.main2{
+    font-size: 40px;
+    color: white;
+    padding: 8px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.724);
+    font-family: "Segoe UI",Arial,sans-serif;
+
+}
+.same{
+    margin-left: 30px;
+    margin-top: 70px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+.same1{
+    height: 70vh;
+    width: 99.9%;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    
+}
+.same2{
+    height: 30vh;
+    width: 22%;
+    position: relative;
+    background-image: url(./Alexa01.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: start;
+}
+.h1{
+    position: relative;
+    height: 6vh;
+    width: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.h{
+   background-image: url(./Alexa02.jpg);
+   background-size: 100% 100%; 
+}
+.he{
+    background-image: url(./Alexa03.jpg);
+    background-size: 100% 100%;
+}
+.hel{
+    background-image: url(./Alexa04.jpg);
+    background-size: 100% 100%;
+}
+.hell{
+    background-image: url(./Alexa02.jpg);
+    background-size: 100% 100%;
+}
+.hello{
+    background-image: url(./Alexa05.jpg);
+    background-size: 100% 100%;
+}
+.helloo{
+    background-image: url(./Alexa04.jpg);
+    background-size: 100% 100%;
+}
+.hellooo{
+    background-image: url(./Alexa03.jpg);
+    background-size: 100% 100%;
+}
+.a{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.d{
+    height: 60vh;
+    width: 99.9%;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.div{
+    height: 100%;
+    width: 22%;
+    /* position: relative; */
+    /* border: 1px solid black; */
+    
+}
+.div2{
+    height: 49%;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.450),rgba(0, 0, 0, 0.450)), url(./Alexa07.jpg);
+    background-size: 100% 100%;
+}
+.div3{
+    height: 49%;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)), url(./Alexa08.jpg);
+    background-size: 100% 100%;
+}
+.div4{
+    height: 49%;
+    width: 100%;
+    position: relative;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.350),rgba(0, 0, 0, 0.350)), url(./Alexa09.jpg);
+    background-size: 100% 100%;
+}
+.div1{
+    height: 49%;
+    width: 100%;
+    position: relative;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.350),rgba(0, 0, 0, 0.350)), url(./Alexa06.jpg);
+    background-size: 100% 100%;
+}
+.div5{
+    height: 50%;
+    width: 100%;
+    /* position: relative; */
+
+}
+.div5>h2{
+    color: black;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+.div5>h5{
+    color: rgba(0, 0, 0, 0.600);
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    /* font-weight: 400; */
+}
+.div5>p{
+    color: black;
+    /* font-size: 25px; */
+    position: relative;
+    top: 20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    /* font-weight: 400; */
+}
+.div5>button{
+    height: 6vh;
+    width: 100%;
+    background-color: aliceblue;
+    font-family: "Segoe UI",Arial,sans-serif;
+    position: relative;
+    top: 30px;
+    border: 1px solid white;
+
+}
+.div5>button:hover{
+    background-color: gainsboro;
+}
+.m{
+    margin-top: 100px;
+}
+.m1{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: "Segoe UI",Arial,sans-serif;
+
+}
+.c{
+    height: 40vh;
+    width: 95%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.c>input{
+    height: 7vh;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+.c1{
+    height: 7vh;
+    width: 10%;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.c1:hover{
+    background-color: gainsboro;
+    color: black;
+    border: 0px solid black;
+}
+.b{
+    height: 110vh;
+    width: 95%;
+    left: 30px;
+    position: relative;
+    border: none;
+    top: 40px;
+    background-image: url(./Alexa10.jpg);
+    background-size: 100% 100%;
+
+}
+.z{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.z>a{
+    margin-left: 5px;
+    color: white;
+}
+.z>a:hover{
+    color: green;
+}
